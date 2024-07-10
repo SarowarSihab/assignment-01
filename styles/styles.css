@@ -65,7 +65,291 @@ margin-top: 32px;
     height: 66px;
     color: rgb(255, 255, 255);
     padding: 21px 24px 21px 24px;
-    margin-top: 32px;
+    margin-top: 32px}
 
+/* section part */
+
+.why-web{
+    padding: 100px;
+    text-align:center;
+    border: 0px;
+    background-color: #FAFAFB;
+    margin: 100px 150px;
+    
+    
+}
+.heading{
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 40px;
 
 }
+
+
+
+.box-01{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 30px;
+    background-color: #FFFFFF;
+    gap: 50px;
+    text-align:left;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    
+}
+.learn-01{
+    width: 150px;
+height: 48px;
+color:#0D1321 ;
+
+padding: 12px 20px 12px 20px;
+}
+.box-02{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color: #FFFFFF;
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px;
+    
+}
+.learn-02{
+
+width: 150px;
+height: 48px;
+color:#0D1321
+}
+
+.box-03{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 30px;
+    background-color: #FFFFFF;
+    gap: 50px;
+    text-align:left;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+.learn-03{
+
+    width: 150px;
+    height: 48px;
+    color:#0D1321
+    }
+
+    .My Inspiration{
+        display: flex;
+        flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+        
+        margin-left: 600px;
+        margin-right: 600px;
+
+    }
+    .Jhankar-Mahbub{
+        margin-left: 200px;
+        margin-right: 100px;
+    }
+    
+    
+        
+    
+    .current-title{
+        font-weight: 800;
+    }
+    .sub-02-text-center{
+        text-align: center;
+    }
+
+    .text-center{
+        text-align: center;
+        
+    }
+    .skills-div{
+        font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+
+    }
+
+    .sub-02-text-center{
+        color: #a09c9c;
+        font-size: 14px;
+    }
+    
+    
+    .skils-container{
+        display: flex;
+        gap: 24px;
+    }
+    
+    .skills-01{
+        border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        padding: 40px;
+    }
+
+    .skills-02{
+        border-radius: 16px;
+        background-color: #004CE80D;
+        padding: 40px;
+    }
+    
+    .skills-03{
+        border-radius: 16px;
+        background-color: #FFDF000D;
+        padding: 40px;
+    }
+    .First{
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+    }
+    .second{
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+    }
+    .third{
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-decoration-line: underline;
+    }
+    .skills{
+        margin: 100px 400px;
+        
+    }
+
+    .support-title{
+        font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+    }
+    .support-para{
+        ont-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+    }
+
+.Support{
+    margin-bottom: 111px;
+    background-image: url(/assets/handshake.jpg);
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px;
+margin: 10px 400px;
+border-radius: 16px;
+
+}
+
+.submit{
+    box-sizing:border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+border-radius: 2px;
+}
+
+.support-para{
+    color: rgb(255, 255, 255);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.support-title{
+    color: rgb(255, 255, 255);
+
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+    .need-support{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .feedback{
+
+        display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+padding: 19px 20px 19px 20px;
+    } 
+
+
+    .submit{
+        width: 100px;
+height: 40px;
+    }
+    
+
+
+    .submit-button{
+        
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        border-radius: 8px;
+}
+    
+.last{
+    display: flex;
+    justify-content: flex-start;
+        
+    }
+    .icon{
+        display: flex;
+        gap: 20px;
+        margin-top: 5px;
+    }
+    .shihab{
+        
+        display: flex;
+        justify-content: space-between;
+        margin: 70px 400px;
+        background-color: #0D132108;
+    }
